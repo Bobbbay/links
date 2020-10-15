@@ -57,4 +57,32 @@ Now, this may/may not look like an onslaught of information to you. Let's break 
  
  Note: you can ignore the text in brackets `()` for now.
  
+## What a program looks like
+
+I really do reccomend you use Python for RPi GPIO - GPIO is finicky, and other languages just aren't smooth with it. If you really want to and have the experience, feel free to use `C`! Nevertheless, here's what a Pythong GPIO program looks like:
+
+```python
+import RPi.GPIO as GPIO
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18, GPIO.OUT)
+GPIO.output(18, GPIO.HIGH)
+```
+
+This will turn on the 18th GPIO pin, and send electricty though it!
+
+That's all I've got here - more to come though! Now, let's wrap it up:
+
+## Links
+
+ - [SparkFun RPi with Python](https://learn.sparkfun.com/tutorials/raspberry-gpio/all#python-rpigpio-api) <- one of the best references, and tutorials
+ - [`Node.JS + RPi`, by w3schools](https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp)
+ - [pinout.xyz](https://pinout.xyz/), an awesome reference to RPi GPIO pins (with a more interactive GPIO image!)
  
+And finally, we have the programming classics:
+
+ - [Stack Overflow](https://stackoverflow.com/)
+ - [Unix Stack Exchange](http://unix.stackexchange.com/)
+ 
+ ## Last words
+ 
+ Let's keep in touch - I'm always happy to help! Bobbbay, signing off.
