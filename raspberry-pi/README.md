@@ -2,6 +2,12 @@
 
 The RPi is an awesome, tiny, powerful computer. Coming from the 2012s, the RPi was released to help students in even elementary schools be able to learn programming and embedded systems in a fast or fun way!
 
+Check out [links](#links) at the end to find some awesome resources for the Raspberry Pi.
+
+So, without further ado, let's get started!
+
+## Introduction
+
 There are currently 7 models of RPi's. You can find the official list at [raspberrypi.org/products](https://www.raspberrypi.org/products/). Here's a simple list though:
 
  - RPi 4B - the newest and coolest Raspberry Pi, boasting up to 8GB of RAM!
